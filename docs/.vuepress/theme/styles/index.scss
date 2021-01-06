@@ -1,0 +1,132 @@
+
+.serif,
+body,
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav,
+.intro-header .site-heading .subheading,
+.intro-header .page-heading .subheading,
+.intro-header .post-heading .subheading,
+.btn,
+.pagiantion li > a,
+.pagiantion li > span {
+  font-family: 'Noto Serif', 'Times New Roman', serif;
+}
+.sans-serif {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body, html {
+  width: 100%;
+  font-size: 18px;
+  color: #4d4d4d;
+}
+
+h1, h2, h3{
+  font-weight: 800;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.header-anchor{
+  display: none;
+}
+
+// 文章详情
+.articleDetail{
+  line-height: 28px;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+  h2{
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+  }
+
+  li {
+    position: relative;
+    padding-left: 24px;
+    &:after{
+      content: '';
+      position: absolute;
+      width: 4px;
+      height: 4px;
+      background-color: #666;
+      top: 11.5px;
+      left: 10px;
+    }
+  }
+
+  code {
+    margin: 0px 4px;
+    padding: 1px 8px;
+    border-radius: 0;
+  }
+
+  blockquote{
+    font-family: 'Noto Serif', 'Times New Roman', serif;
+    font-style:italic;
+    border: none;
+    position: relative;
+    padding: 20px 30px;
+    box-sizing: content-box;
+    margin: 20px 0;
+    background-color: #f5f5f5;
+    border-left: 4px solid #ce2323;
+  }
+
+  pre{
+    border: none;
+    padding: 20px 30px;
+    code {
+      padding: 0;
+      margin: 0;
+
+      .token.keyword {
+        color: #D622D0;
+      }
+
+      .token.function {
+        color: #0184bc;
+      }
+
+      .token.punctuation {
+        color: #0184bc;
+      }
+      
+      .token.parameter {
+        color: #EB8006;
+      }
+
+      .token.operator{
+        color: #D622D0;
+      }
+
+      .token.number{
+        color: #9DA39A;
+      }
+
+      .token.string{
+        color: #38A334;
+      }
+      .token.class-name{
+        color: #c18401;
+      }
+      .token.template-string{
+        color: #BE5046;
+      }
+    }
+  }
+}

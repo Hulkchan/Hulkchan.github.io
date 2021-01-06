@@ -1,0 +1,14 @@
+{
+  "name": "theme",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-blog": "^1.9.3"
+  },
+  "dependencies": {
+    "node-sass": "^5.0.0",
+    "reset.css": "^2.0.2",
+    "sass-loader": "^10.1.0"
+  }
+}

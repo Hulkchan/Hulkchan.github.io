@@ -1,0 +1,22 @@
+{
+  "name": "sucheng",
+  "version": "1.0.0",
+  "description": "素城",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "chenqihulk@163.com",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^1.7.1"
+  },
+  "dependencies": {
+    "@vuepress/plugin-blog": "^1.9.3",
+    "chalk": "^4.1.0",
+    "node-sass": "^5.0.0",
+    "postcss-px2rem": "^0.3.0",
+    "sass-loader": "^10.1.0"
+  }
+}
