@@ -5,8 +5,8 @@ function resolve(dir) {
 }
 
 module.exports = {
-  title: '素城',
-  description: '一座很素的王城，属于我的博客',
+  title: '戒晨',
+  description: '革除不良嗜好',
   head: [
     ['link', { href: 'https://cdn.jsdelivr.net/npm/reset.css@2.0.2/reset.min.css', rel: "stylesheet" }],
     ['link', { href: '//cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css', rel: "stylesheet" }],
