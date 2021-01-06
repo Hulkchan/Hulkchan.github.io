@@ -5,7 +5,7 @@ function resolve(dir) {
 }
 
 module.exports = {
-  title: '戒晨',
+  title: '戒晨-博客',
   description: '革除不良嗜好',
   head: [
     ['link', { href: 'https://cdn.jsdelivr.net/npm/reset.css@2.0.2/reset.min.css', rel: "stylesheet" }],
