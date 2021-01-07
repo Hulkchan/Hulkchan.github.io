@@ -27,23 +27,23 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "2020/11/11/mac显示隐藏文件/index.html",
-    "revision": "17d194f47a806e9b0e5625c4d2cbc0ce"
+    "revision": "16e1d214223970532e51b71cf3737caf"
   },
   {
     "url": "2020/12/23/js基础知识/index.html",
-    "revision": "84a8bcf44fa54ff819cd086a19b213d4"
+    "revision": "0cfd6ae073f3b1e1d6a7013dac79b013"
   },
   {
     "url": "404.html",
-    "revision": "0830dfb35ed4953d26917f9f139ab059"
+    "revision": "9523f4c192a25014fa6769fcf447cc0c"
   },
   {
     "url": "about/index.html",
-    "revision": "59b934752840e6a5c2990bc78f4dd907"
+    "revision": "cd719258bd3dbfd8b3092ec2fbd9ebf3"
   },
   {
-    "url": "assets/css/0.styles.afaab5d0.css",
-    "revision": "16da7cfd544a1fd9b8bc414872948303"
+    "url": "assets/css/0.styles.59b2ca21.css",
+    "revision": "81fdfb18acb0d71254f28f54619ba398"
   },
   {
     "url": "assets/js/10.d3aacfd6.js",
@@ -54,8 +54,8 @@ self.__precacheManifest = [
     "revision": "2942bdc0fd383f5ef8d1af7ae0ffe39a"
   },
   {
-    "url": "assets/js/2.ff584f36.js",
-    "revision": "70e053995ddf38676c2b921971a32ff8"
+    "url": "assets/js/2.b1ff16ef.js",
+    "revision": "d00a2e4c19943448953d45c5cd31d958"
   },
   {
     "url": "assets/js/3.b4f7b4ca.js",
@@ -86,40 +86,40 @@ self.__precacheManifest = [
     "revision": "0358b1583a71ad8325ec76cb600a2281"
   },
   {
-    "url": "assets/js/app.ff94690f.js",
-    "revision": "17af0a00722078cd2e53709f228bfaac"
+    "url": "assets/js/app.21ed43c3.js",
+    "revision": "7b507d33ef34f6a29fef34a7044ba1f4"
   },
   {
     "url": "dataCategories/2020-11/index.html",
-    "revision": "227211549c1b15bc0f8c17c208c7dd96"
+    "revision": "147a0b8eec54d852da8fca6b1625d85e"
   },
   {
     "url": "dataCategories/2020-12/index.html",
-    "revision": "7223959a92bf1f4dc9be1df366382821"
+    "revision": "a4a0fbfa93bcf8330de7df42b2012939"
   },
   {
     "url": "dataCategories/index.html",
-    "revision": "14ccd265a137a5f5e28b803762553257"
+    "revision": "1d1edf618b3ad46d1280172036a92d43"
   },
   {
     "url": "index.html",
-    "revision": "4c34dacdc01fbfd520977b7cb2b9cc9d"
+    "revision": "d891bc3d89f6bd203c8452727c5a8ada"
   },
   {
     "url": "tags/index.html",
-    "revision": "cf717316f9f78be0521a1a3e9c92d4c4"
+    "revision": "4952be3873a9ee21cc60af11bf4b6b2c"
   },
   {
     "url": "tags/JavaScript/index.html",
-    "revision": "02313b847d60fbe8db0a4c45b69bc386"
+    "revision": "d9290ea88d0d2b76fbc45773e17e9b01"
   },
   {
     "url": "tags/Mac/index.html",
-    "revision": "a4a9ceedbc06fc08609822d862ff3d27"
+    "revision": "327c1ec5dce2742c12fd0cc1cde9fa79"
   },
   {
     "url": "tags/前端/index.html",
-    "revision": "e0a0ae0fca16e9a4ce510ba23e6311b4"
+    "revision": "55c1198832fc46bdc075fa96c7d5f553"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
