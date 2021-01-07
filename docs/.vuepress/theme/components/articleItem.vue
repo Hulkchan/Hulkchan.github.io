@@ -15,8 +15,8 @@
             </span>
           </div>
         </div>
-        <div class="article-item-excerpt">
-          这是一篇JS基础知识,通过《JS高级程序设计》和《掘金小册》的结合，自己总结的相关文章
+        <div class="article-item-excerpt" v-if="article.excerpt">
+          {{ filterExcerpt }}
         </div>
       </div>
     </router-link>
@@ -37,8 +37,16 @@ export default {
   data() {
     return {}
   },
+  computed: {
+    filterExcerpt() {
+      let excerpt = this.article.excerpt.replace(/<\/?[^>]*>/g, ''); //去除HTML Tag
+      excerpt = excerpt.replace(/[|]*\n/, '') //去除行尾空格
+      excerpt = excerpt.replace(/&npsp;/ig, ''); //去掉npsp
+      return excerpt;
+    }
+  },
   mounted() {
-    console.log(this.article)
+
   },
 }
 
@@ -46,8 +54,8 @@ export default {
 <style lang='scss' scoped='scoped'>
 .article-item{
   margin-bottom: 40px;
+  border-bottom: 1px solid #eee;
   @media screen and (max-width:767px){ 
-    border-bottom: 1px solid #eee;
     margin-bottom: 14px;
     &:last-child{
       border: none;
