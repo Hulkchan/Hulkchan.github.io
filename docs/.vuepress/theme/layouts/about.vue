@@ -7,7 +7,7 @@
         <typer :texts="theme.typer"></typer>
       </div>
       <div class="about-user-info">
-        <div class="email">邮箱：chenqihulk@163.com</div>
+        <div class="email">邮箱：chenqihulk@163.com - </div>
       </div>
     </div>
   </section>
