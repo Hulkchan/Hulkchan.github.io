@@ -30,6 +30,10 @@ export default {
   width: 800px;
   margin: 0 auto;
   padding: 20px 0;
+  @media screen and (max-width:767px){ 
+    width: 100%;
+    text-align: center;
+  }
 }
 
 .header-nav{

@@ -10,7 +10,7 @@
           <div class="article-item-tags">
             <span v-for="(tag, index) in article.frontmatter.tags">
               <span>/</span> 
-              <router-link class="tag-name" :to="`tags/${tag}`">{{ tag }}</router-link>
+              <router-link class="tag-name" :to="`/tags/${tag}`">{{ tag }}</router-link>
               <span v-if="index === article.frontmatter.tags.length - 1">/</span>
             </span>
           </div>
@@ -46,6 +46,13 @@ export default {
 <style lang='scss' scoped='scoped'>
 .article-item{
   margin-bottom: 40px;
+  @media screen and (max-width:767px){ 
+    border-bottom: 1px solid #eee;
+    margin-bottom: 14px;
+    &:last-child{
+      border: none;
+    }
+  }
 }
 
 .article-item-a{
@@ -65,6 +72,12 @@ export default {
   margin: 0;
   &:hover{
     color: #ce2323;
+    @media screen and (max-width:767px){ 
+      color:#4d4d4d;
+    }
+  }
+  @media screen and (max-width:767px) {
+    width: 100%;
   }
 }
 
@@ -79,6 +92,22 @@ export default {
   align-items: flex-end;
   margin: 10px 0 20px;
   justify-content: space-between;
+  @media screen and (max-width:767px){ 
+    display: block;
+  }
+}
+
+.article-item-tags{
+  @media screen and (max-width:767px){ 
+    font-size: 14px;
+    margin-top: 10px;
+    color: #666;
+    background: #8c9196;
+    display: inline-block;
+    color: #fff;
+    padding: 1px 8px;
+    border-radius: 3px;
+  }
 }
 
 .article-item-excerpt{
@@ -92,11 +121,20 @@ export default {
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
+  @media screen and (max-width:767px){ 
+    display: none;
+  }
 }
 .tag-name{
   color: #4d4d4d;
   &:hover{
     color: #ce2323;
+    @media screen and (max-width:767px){ 
+      color:#4d4d4d;
+    }
+  }
+  @media screen and (max-width:767px){ 
+    color: #fff;
   }
 }
 </style>

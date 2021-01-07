@@ -6,8 +6,10 @@ function resolve(dir) {
 
 module.exports = {
   title: '戒晨-博客',
-  description: '革除不良嗜好',
+  description: '夜半三更是戒晨',
   head: [
+    ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0,user-scalable=0' }],
+    ['link', { rel: 'shortcut icon', type: "image/x-icon", href: `./favicon.ico` }],
     ['link', { href: 'https://cdn.jsdelivr.net/npm/reset.css@2.0.2/reset.min.css', rel: "stylesheet" }],
     ['link', { href: '//cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css', rel: "stylesheet" }],
     ['link', { href: '//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800', rel: "stylesheet" }],

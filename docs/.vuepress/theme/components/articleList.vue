@@ -26,8 +26,8 @@ export default {
 
 </script>
 <style lang='scss' scoped='scoped'>
-.article-list{
-  width: 800px;
-  margin: 0 auto;
-}
+// .article-list{
+//   width: 800px;
+//   margin: 0 auto;
+// }
 </style>

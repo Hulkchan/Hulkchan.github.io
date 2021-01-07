@@ -3,7 +3,7 @@
     <NavHeader></NavHeader>
     <div class="container">
       <h2 class="articleDetail-title">
-        {{ this.$frontmatter.title || '' }}
+        <span class="articleTitle-son">{{ this.$frontmatter.title || '' }}</span>
       </h2>
       <Content class="articleDetail"></Content>
       <div class="articleDetail-bottom">
@@ -45,6 +45,16 @@ export default {
   font-size: 55px;
   margin-bottom: 50px;
   margin-top: 0;
+  @media screen and (max-width:767px){ 
+    font-size: 40px;
+    text-align: center;
+  }
+  .articleTitle-son{
+    @media screen and (max-width:767px){ 
+      display: inline-block;
+      text-align: left;
+    }
+  }
 }
 
 .articleDetail-bottom{
