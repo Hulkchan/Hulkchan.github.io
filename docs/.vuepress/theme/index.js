@@ -52,14 +52,6 @@ module.exports = {
         'ga': 'UA-89572039-1' // UA-00000000-0
       }
     ],
-    ['@vuepress/nprogress'],
-    ['@vuepress/pwa', {
-      serviceWorker: true,
-      popupComponent: 'SWUpdatePopup',
-      updatePopup: {
-        message: "zhei博主更新啦",
-        buttonText: "客观里面儿请"
-      }
-    }]
+    ['@vuepress/nprogress']
   ],
 }
