@@ -27,43 +27,43 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "2020/11/11/mac显示隐藏文件/index.html",
-    "revision": "4ed4507423cab9dd5f631394f06a8d51"
+    "revision": "d617d861b26bd2ea62627a6f9430140a"
   },
   {
     "url": "2020/12/23/js基础知识/index.html",
-    "revision": "6cbcae5b58887f2d4eac4ef0f55d0483"
+    "revision": "3c63dc6fb5e45d594b0fc12a5593ca63"
   },
   {
     "url": "404.html",
-    "revision": "309971dc3fb23767b7ffbe41aa14e5d6"
+    "revision": "7a95e54d7271aab0ef464400b2181747"
   },
   {
     "url": "about/index.html",
-    "revision": "84d7824c9342af06f1fcf2d03c6ffa11"
+    "revision": "71569b5c4a8ccfb53ceb9781b061a277"
   },
   {
-    "url": "assets/css/0.styles.f83df601.css",
-    "revision": "4d1f18c22c52cf872f38468d7914e110"
+    "url": "assets/css/0.styles.469c5909.css",
+    "revision": "58dc110e207ee5d647912acc04ff7be6"
   },
   {
     "url": "assets/js/10.14f3d1a9.js",
     "revision": "ab035f4539e171612e0a81b1dbf28a3e"
   },
   {
-    "url": "assets/js/11.82b6a0f7.js",
-    "revision": "9913b5ac4700022b1de5141e68fab7ca"
+    "url": "assets/js/11.a154227a.js",
+    "revision": "3d08aefc89809562f106a0d6a2af4089"
   },
   {
-    "url": "assets/js/12.ac547a8a.js",
-    "revision": "b8c71a0b821b50301057e66c1e66f609"
+    "url": "assets/js/12.e7f69ed6.js",
+    "revision": "4feec692b0b9df35c3b990529c2bad2e"
   },
   {
     "url": "assets/js/13.f224b435.js",
     "revision": "d6669a009e51a12bad1f3c327d08fc2d"
   },
   {
-    "url": "assets/js/2.5c7356d0.js",
-    "revision": "0a2f5dc2c8d22c78281ed7857fd0cd9b"
+    "url": "assets/js/2.c0356d8c.js",
+    "revision": "22bd16938b702f466945ba9cb437375b"
   },
   {
     "url": "assets/js/3.e9345eca.js",
@@ -94,40 +94,40 @@ self.__precacheManifest = [
     "revision": "61ad3b916e88d9f0c7ff0a4a474a3b2e"
   },
   {
-    "url": "assets/js/app.5062176e.js",
-    "revision": "5c608b748d4ba4b7fe4f928ecabff739"
+    "url": "assets/js/app.98269608.js",
+    "revision": "a816b0c24e42d20552ade2b668a15d6b"
   },
   {
     "url": "dataCategories/2020-11/index.html",
-    "revision": "ac57ab2cf75317caf67ea8cdcc31215d"
+    "revision": "cea186a532f93644fca58708a236aaba"
   },
   {
     "url": "dataCategories/2020-12/index.html",
-    "revision": "6b00fdf57b63b5ac3d33d5ae68d269d3"
+    "revision": "ec624571044f9a72c4e3382d2f6f02fc"
   },
   {
     "url": "dataCategories/index.html",
-    "revision": "34facb1df06f16f4ecd2e24a17e90161"
+    "revision": "ddffd38f8a722e3ec6725848a7f426b1"
   },
   {
     "url": "index.html",
-    "revision": "7ec2f83743af38a1cd6e81ac4932841a"
+    "revision": "5685af945b1a9f53c99eb15603735760"
   },
   {
     "url": "tags/index.html",
-    "revision": "52dbbc563a2a732b86f747f06dab0fff"
+    "revision": "f5498828ccbd02967d964e74a9621d5c"
   },
   {
     "url": "tags/JavaScript/index.html",
-    "revision": "addc9a3dc7f1bc90c311a2a7acce1272"
+    "revision": "2d65f6e608c4a1b893acf045a2d03fad"
   },
   {
     "url": "tags/Mac/index.html",
-    "revision": "014a42a341f3b9f185d46023df091344"
+    "revision": "91dc6c7f31bbf2cc623fff097a3cc8f7"
   },
   {
     "url": "tags/前端/index.html",
-    "revision": "7c6142e182a49845306efce0cc6dc13b"
+    "revision": "69e04b3144aad2df9cde7fdfb83c25fa"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
