@@ -55,9 +55,10 @@ module.exports = {
     ['@vuepress/nprogress'],
     ['@vuepress/pwa', {
       serviceWorker: true,
+      popupComponent: 'SWUpdatePopup',
       updatePopup: {
-          message: "发现新内容可用",
-          buttonText: "刷新"
+        message: "zhei博主更新啦",
+        buttonText: "客观里面儿请"
       }
     }]
   ],
