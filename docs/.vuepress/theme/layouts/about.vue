@@ -6,6 +6,9 @@
       <div class="typer-wrap">
         <typer :texts="theme.typer"></typer>
       </div>
+      <div class="about-user-info">
+        <div class="email">邮箱：chenqihulk@163.com</div>
+      </div>
     </div>
   </section>
 </template>
@@ -39,5 +42,9 @@ export default {
   color: #fff;
   padding-left: 20px;
   font-size: 28px;
+}
+
+.about-user-info{
+  margin-top: 20px;
 }
 </style>

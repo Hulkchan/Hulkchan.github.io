@@ -52,6 +52,13 @@ module.exports = {
         'ga': 'UA-89572039-1' // UA-00000000-0
       }
     ],
-    ['@vuepress/nprogress']
+    ['@vuepress/nprogress'],
+    ['@vuepress/pwa', {
+      serviceWorker: true,
+      updatePopup: {
+          message: "发现新内容可用",
+          buttonText: "刷新"
+      }
+    }]
   ],
 }
