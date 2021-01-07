@@ -20,7 +20,6 @@ export default {
 
 <style>
 .my-sw-update-popup {
-  text-align: right;
   position: fixed;
   bottom: 50px;
   right: 50px;
