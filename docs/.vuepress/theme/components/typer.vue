@@ -37,7 +37,6 @@ export default {
   },
   mounted() {
     this.str = this.texts[0]
-    console.log(this.str)
     this.begin()
   },
   methods: {

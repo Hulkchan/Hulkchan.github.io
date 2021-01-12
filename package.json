@@ -7,7 +7,8 @@
   "author": "chenqihulk@163.com",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "generate": "node ./generate/generateArticle.js"
   },
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "^1.8.0",
