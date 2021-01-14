@@ -19,8 +19,10 @@
   "dependencies": {
     "@vuepress/plugin-blog": "^1.9.3",
     "chalk": "^4.1.0",
+    "leancloud-storage": "^4.9.0",
     "node-sass": "^5.0.0",
     "postcss-px2rem": "^0.3.0",
-    "sass-loader": "^10.1.0"
+    "sass-loader": "^10.1.0",
+    "valine": "^1.4.14"
   }
 }
