@@ -4,9 +4,10 @@ author: chenqi
 date: 2021-01-12 14:22
 tags:
   - '前端'
-  - Vue
+  - 工作小问题
 dataCategories:
   - 2021-01
+comment: true
 ---
 > 在`CMS`项目中，使用`UEditor`作为富文本编辑器，由于上传视频功能需要自己改造，所以需要新增自定义按钮
 ## 环境

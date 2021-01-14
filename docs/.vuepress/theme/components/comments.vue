@@ -1,0 +1,52 @@
+<template>
+  <section class='comments'>
+    <div id="vcomments"></div>
+  </section>
+</template>
+
+<script>
+export default {
+  name: 'ValineComments',
+  data() {
+    return {}
+  },
+  mounted() {
+    const Valine = require('../node_modules/valine');
+    if (typeof window !== 'undefined') {
+        this.window = window
+        window.AV = require('../node_modules/leancloud-storage')
+    }
+    this.valine = new Valine()
+    this.initValine()
+  },
+  methods: {
+    initValine () {
+      let path = location.origin + location.pathname
+      // // vuepress打包后变成的HTML不知为什么吞掉此处的绑定`:id="countId"`
+      // document.getElementsByClassName('leancloud-visitors')[0].id = path
+      this.valine.init({
+          el: '#vcomments',
+          appId: 'JK4pcU4RnUALt6vCfN9d78Nc-gzGzoHsz',// your appId
+          appKey: '0K3vMHBYVk5TdbGN96Xf9gXF', // your appKey
+          notify: false,
+          verify: false,
+          path: path,
+          visitor: true,
+          avatar: 'mm',
+          placeholder: '客官您指点两句呗~'
+      });
+    }
+  },
+  watch: {
+    $route (to, from) {
+      if (from.path != to.path) {
+        this.initValine()
+      }
+    }
+  }
+}
+
+</script>
+<style lang='scss' scoped='scoped'>
+
+</style>

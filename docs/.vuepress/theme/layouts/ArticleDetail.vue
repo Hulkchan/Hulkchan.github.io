@@ -16,17 +16,20 @@
         </div>
         <div class="articleDetail-date">{{ $frontmatter.date || '' }}</div>
       </div>
+      <Valine></Valine>
     </div>
   </section>
 </template>
 
 <script>
 import NavHeader from '../components/nav-header'
+import Valine from '../components/comments'
 
 export default {
   name: 'ArticleDetailLayout',
   components: {
-    NavHeader
+    NavHeader,
+    Valine
   },
   data() {
     return {}

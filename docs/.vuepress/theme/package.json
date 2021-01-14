@@ -7,8 +7,10 @@
     "@vuepress/plugin-blog": "^1.9.3"
   },
   "dependencies": {
+    "leancloud-storage": "^4.9.0",
     "node-sass": "^5.0.0",
     "reset.css": "^2.0.2",
-    "sass-loader": "^10.1.0"
+    "sass-loader": "^10.1.0",
+    "valine": "^1.4.14"
   }
 }
