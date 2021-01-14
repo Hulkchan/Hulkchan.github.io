@@ -65,5 +65,12 @@ module.exports = {
   },
   chainWebpack (config) {
     config.resolve.alias.set('core-js/library/fn', 'core-js/features');
+  },
+  plugins: {
+    '@vuepress/pwa': {
+      serviceWorker: true,
+      popupComponent: 'MySWUpdatePopup',
+      updatePopup: true
+    }
   }
 };
