@@ -11,21 +11,17 @@
 </template>
 
 <script>
-import Valine from 'valine'
-import leancloud from 'leancloud-storage'
-
-console.log(Valine)
 export default {
   name: 'ValineComments',
   data() {
     return {}
   },
   mounted() {
+    const Valine = require('valine');
     if (typeof window !== 'undefined') {
-      this.window = window
-      window.AV = leancloud
+        this.window = window
+        window.AV = require('leancloud-storage')
     }
-    
     this.valine = new Valine()
     this.initValine()
   },
