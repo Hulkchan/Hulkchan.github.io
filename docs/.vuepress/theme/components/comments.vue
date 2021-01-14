@@ -41,6 +41,7 @@ export default {
           avatar: 'mm',
           placeholder: '客官您指点两句呗~'
       });
+      console.log('valine', this.valine)
     }
   },
   watch: {
