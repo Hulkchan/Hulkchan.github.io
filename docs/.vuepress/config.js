@@ -62,5 +62,8 @@ module.exports = {
     ],
     profilePhoto:
       "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1606397617540&di=fe231361d2bd20cf5563645053ac3b67&imgtype=0&src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201911%2F17%2F20191117234615_ofqxh.thumb.700_0.jpg"
+  },
+  chainWebpack (config) {
+    config.resolve.alias.set('core-js/library/fn', 'core-js/features');
   }
 };
