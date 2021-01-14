@@ -1,5 +1,11 @@
 <template>
   <section class='comments'>
+    <!-- id 将作为查询条件 -->
+    <span class="leancloud-visitors"
+          data-flag-title="Your Article Title">
+      <em class="post-meta-item-text">阅读量： </em>
+      <i class="leancloud-visitors-count"></i>
+    </span>
     <div id="vcomments"></div>
   </section>
 </template>
@@ -11,10 +17,10 @@ export default {
     return {}
   },
   mounted() {
-    const Valine = require('../node_modules/valine');
+    const Valine = require('valine');
     if (typeof window !== 'undefined') {
         this.window = window
-        window.AV = require('../node_modules/leancloud-storage')
+        window.AV = require('leancloud-storage')
     }
     this.valine = new Valine()
     this.initValine()
