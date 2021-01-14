@@ -1,19 +1,16 @@
 <template>
   <section class='comments'>
     <!-- id 将作为查询条件 -->
-    <span class="leancloud-visitors"
+    <!-- <span class="leancloud-visitors"
           data-flag-title="Your Article Title">
       <em class="post-meta-item-text">阅读量： </em>
       <i class="leancloud-visitors-count"></i>
-    </span>
+    </span> -->
     <div id="vcomments"></div>
   </section>
 </template>
 
 <script>
-const Valine = import('valine')
-window.AV = import('leancloud-storage')
-
 export default {
   name: 'ValineComments',
   data() {
@@ -21,9 +18,10 @@ export default {
   },
   mounted() {
     if (typeof window !== 'undefined') {
-        this.window = window
-        
+      this.window = window
+      window.AV = import('leancloud-storage')
     }
+    const Valine = import('valine')
     this.valine = new Valine()
     this.initValine()
   },
