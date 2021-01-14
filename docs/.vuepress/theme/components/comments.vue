@@ -17,12 +17,14 @@ export default {
     return {}
   },
   mounted() {
+    console.log('喂喂喂')
     const Valine = require('valine');
     if (typeof window !== 'undefined') {
         this.window = window
         window.AV = require('leancloud-storage')
     }
     this.valine = new Valine()
+    console.log(this.valine)
     this.initValine()
   },
   methods: {
