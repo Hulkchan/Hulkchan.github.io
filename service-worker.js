@@ -27,23 +27,23 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "2020/11/11/mac显示隐藏文件/index.html",
-    "revision": "bd3476a7df92b4a226e8dae7095e7581"
+    "revision": "938166b271f0d426b45f5269d012886d"
   },
   {
     "url": "2020/12/23/js基础知识/index.html",
-    "revision": "a36e1cc4fc5d67bc8f4495dad20e8c9e"
+    "revision": "5021cf0da045b6d24d29ecfc09c31fda"
   },
   {
     "url": "2021/01/12/how-to-add-ueditorbtns-in-vue/index.html",
-    "revision": "6671c9d99971e9d4ab1f637642f0cf50"
+    "revision": "3f0d07116eeb931122d672b86af9034f"
   },
   {
     "url": "404.html",
-    "revision": "69ddfe953a7b9de3f42bc249dad71b78"
+    "revision": "9c14b970485a2b369af7602f31080c9a"
   },
   {
     "url": "about/index.html",
-    "revision": "05a5320aef6e0434319b441034bc8b1f"
+    "revision": "542387f63bea587136ab998e08b0ee85"
   },
   {
     "url": "assets/css/0.styles.c5f2f5d8.css",
@@ -102,48 +102,48 @@ self.__precacheManifest = [
     "revision": "b7d9844dbccc9eb41fcd4f3a93f1ecf7"
   },
   {
-    "url": "assets/js/app.a9d8413f.js",
-    "revision": "b0dcc6203910349349c28d2a78086057"
+    "url": "assets/js/app.94e3aa43.js",
+    "revision": "7d6dfb07bd6f58c6d5d2092561b4ee89"
   },
   {
     "url": "dataCategories/2020-11/index.html",
-    "revision": "f9e00e05dcc23fc1ba05180483b8832a"
+    "revision": "5e7ace583e0b5bb7d120f8c5daca54e6"
   },
   {
     "url": "dataCategories/2020-12/index.html",
-    "revision": "4a22e2d90097f10dd71e007456aed2a3"
+    "revision": "2b0f3fac07c8b55ac02bd7ae5a64aff5"
   },
   {
     "url": "dataCategories/2021-01/index.html",
-    "revision": "0f8bab3a0cf55cb04dfb597840aee66e"
+    "revision": "1dac34c89f115fd9b395db4915264449"
   },
   {
     "url": "dataCategories/index.html",
-    "revision": "56d788ff9aee874f6c50ab678ba94954"
+    "revision": "41a296f0d8e1e1252761424c22eda165"
   },
   {
     "url": "index.html",
-    "revision": "22ca53520c4c18829fb3d8d43505b41b"
+    "revision": "dcca6dd7973ff4a08454fffd6c0ccf5f"
   },
   {
     "url": "tags/index.html",
-    "revision": "390d6606eaedf9455b58081109298792"
+    "revision": "5c7f16ba86a9e3888be0a34d01f7f1bf"
   },
   {
     "url": "tags/JavaScript/index.html",
-    "revision": "20c1a0009f621586364e0b89fb18631d"
+    "revision": "65c6f5fba8fdbd30b06f10a2edbf2108"
   },
   {
     "url": "tags/Mac/index.html",
-    "revision": "8195056574155acd2903dd297e5f6482"
+    "revision": "836ea1f67f783b31508bfb3b679e0181"
   },
   {
     "url": "tags/前端/index.html",
-    "revision": "351a27c23a96db599c4adcb185374ba9"
+    "revision": "165eefcccee33d9d7214ed76f1fe8a43"
   },
   {
     "url": "tags/工作小问题/index.html",
-    "revision": "826157f8240406b2845b59e4d5cb8d51"
+    "revision": "1630a3a73e5864c255509f3f66da43d9"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
