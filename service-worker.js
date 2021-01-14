@@ -27,27 +27,27 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "2020/11/11/mac显示隐藏文件/index.html",
-    "revision": "f89e67158332c4f31ef39aecc473c790"
+    "revision": "eda1298a8c04ad354d7ad8184766825d"
   },
   {
     "url": "2020/12/23/js基础知识/index.html",
-    "revision": "981729fb614e2d5acee63dd7c491db69"
+    "revision": "ad98416c8a1b6fad1f2ef766096f739f"
   },
   {
     "url": "2021/01/12/how-to-add-ueditorbtns-in-vue/index.html",
-    "revision": "38251be65fffd07f7bfd61b24eebffd8"
+    "revision": "9b53ceb0134e7305366f88278d45aa39"
   },
   {
     "url": "404.html",
-    "revision": "9266174416840cf2af1f3659b1ed729e"
+    "revision": "c47e659c935b1472a6837bde85469350"
   },
   {
     "url": "about/index.html",
-    "revision": "a47296ec0246e4ad2c29aae24dfcfcf3"
+    "revision": "0f3509000e045ad2463c655a6eceb3db"
   },
   {
-    "url": "assets/css/0.styles.f309bed3.css",
-    "revision": "bbad49826b5bb5fd5375f6eae9f8f09b"
+    "url": "assets/css/0.styles.173cba2f.css",
+    "revision": "7a5c5be4d23c53b8e3cc7231869a30ea"
   },
   {
     "url": "assets/js/10.8b51953d.js",
@@ -82,8 +82,8 @@ self.__precacheManifest = [
     "revision": "9f04c26df0c6ef76c91099f72bfb9fa0"
   },
   {
-    "url": "assets/js/5.c3b13fd7.js",
-    "revision": "3a929ce250b6f7d36c060705175d8d65"
+    "url": "assets/js/5.b1a97fc0.js",
+    "revision": "8a7be914e47d23cf608af69242e26e50"
   },
   {
     "url": "assets/js/6.232dc695.js",
@@ -102,48 +102,48 @@ self.__precacheManifest = [
     "revision": "b7d9844dbccc9eb41fcd4f3a93f1ecf7"
   },
   {
-    "url": "assets/js/app.b5e0f376.js",
-    "revision": "111848a2f61a2a3f7e36e3f23b1057cc"
+    "url": "assets/js/app.404536d2.js",
+    "revision": "f6edd8a90fc48cfb9580e95486201396"
   },
   {
     "url": "dataCategories/2020-11/index.html",
-    "revision": "1ce336b158c2ad20969b42d557faedd5"
+    "revision": "ddc3cde9d09a756b8f8c54f2ded5cac2"
   },
   {
     "url": "dataCategories/2020-12/index.html",
-    "revision": "0534a61c9b312348dc8d1256938b78e4"
+    "revision": "cd210550485dae40c4fcdfa6bea8cb94"
   },
   {
     "url": "dataCategories/2021-01/index.html",
-    "revision": "3b75e092ffb28b8c4d4dc287bc15bd0c"
+    "revision": "38c99a87f776dd0521ef3a930551e929"
   },
   {
     "url": "dataCategories/index.html",
-    "revision": "b87b38de6e7d26a58e61b34592bbeb34"
+    "revision": "491a3872c2a001ef8e7a61752784bab8"
   },
   {
     "url": "index.html",
-    "revision": "610cd46cb03b2bd5087d69e910475ca1"
+    "revision": "33d416841e5df95ef4c538b10e4c6beb"
   },
   {
     "url": "tags/index.html",
-    "revision": "be7485f69800b095f4238921f5203dfa"
+    "revision": "c29f0803ca514e5c4bb066a8756f4ef0"
   },
   {
     "url": "tags/JavaScript/index.html",
-    "revision": "d4a28455ca8a0880f9d054002b765007"
+    "revision": "7c4a606b8b4ed4816d267ee6fe28d220"
   },
   {
     "url": "tags/Mac/index.html",
-    "revision": "a06a9a540039c862c059a2ff5639da2a"
+    "revision": "10e8f185fe1fb052bcdcf8780a61fe3d"
   },
   {
     "url": "tags/前端/index.html",
-    "revision": "7cf0789361e127616e0624097b2d6c29"
+    "revision": "146935228722b4a9342b24ac57f4b526"
   },
   {
     "url": "tags/工作小问题/index.html",
-    "revision": "d2362e5b973bb3d20795c8eea59e3f2d"
+    "revision": "b1c731af43383d75ac4712883576cf69"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
