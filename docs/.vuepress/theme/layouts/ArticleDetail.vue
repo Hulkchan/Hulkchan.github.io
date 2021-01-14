@@ -1,7 +1,7 @@
 <template>
   <section class='articleDetail-layout'>
     <NavHeader></NavHeader>
-    <div class="container">
+    <div class="container-mine">
       <h2 class="articleDetail-title">
         <span class="articleTitle-son">{{ this.$frontmatter.title || '' }}</span>
       </h2>

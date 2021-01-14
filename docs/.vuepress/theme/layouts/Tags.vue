@@ -1,7 +1,7 @@
 <template>
   <section class='tags-layout'>
     <NavHeader></NavHeader>
-    <div class="container">
+    <div class="container-mine">
       <layoutTypeTitle :title="$page.frontmatter.title"></layoutTypeTitle>
       <div class="tags-wrap">
         <div class="tag-item" v-for="(tag, index) in tagList" :key="index">

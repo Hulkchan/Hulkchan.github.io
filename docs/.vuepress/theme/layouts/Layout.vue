@@ -1,7 +1,7 @@
 <template>
   <section class='default-layout'>
     <NavHeader></NavHeader>
-    <div class="container">
+    <div class="container-mine">
       <ArticleList></ArticleList>
     </div>
   </section>

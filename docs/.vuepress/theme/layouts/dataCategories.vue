@@ -1,7 +1,7 @@
 <template>
   <section class='date-layout'>
     <NavHeader></NavHeader>
-    <div class="container">
+    <div class="container-mine">
       <layoutTypeTitle :title="$page.frontmatter.title"></layoutTypeTitle>
       <div class="date-wrap">
         <div class="date-item" v-for="(date, index) in $dataCategories.list" :key="index">

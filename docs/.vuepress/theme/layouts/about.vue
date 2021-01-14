@@ -1,7 +1,7 @@
 <template>
   <section class='about-layout'>
     <NavHeader></NavHeader>
-    <div class="container">
+    <div class="container-mine">
       <layoutTypeTitle :title="$page.frontmatter.title"></layoutTypeTitle>
       <div class="typer-wrap">
         <typer :texts="theme.typer"></typer>

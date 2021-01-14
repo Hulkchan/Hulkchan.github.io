@@ -68,7 +68,7 @@ export default {
   color: #4d4d4d;
 }
 .article-item-title{
-  width: 256px;
+  width: 32%;
   height: 100%;
   font-size: 2em;
   word-wrap: break-word;
