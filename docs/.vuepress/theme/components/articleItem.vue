@@ -1,11 +1,12 @@
 <template>
   <div class="article-item">
-    <router-link :to="article.path" class="article-item-a">
       <div>
         <div class="article-item-date">{{ article.frontmatter.date }}</div>
         <div class="article-item-info">
           <h2 class="article-item-title" :title="article.title">
-            {{ article.title }}
+            <router-link :to="article.path" class="article-item-a">
+              {{ article.title }}
+            </router-link>
           </h2>
           <div class="article-item-tags">
             <span v-for="(tag, index) in article.frontmatter.tags">
@@ -19,7 +20,7 @@
           {{ filterExcerpt }}
         </div>
       </div>
-    </router-link>
+    
   </div>
 </template>
 
@@ -78,7 +79,7 @@ export default {
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   margin: 0;
-  &:hover{
+  &:hover .article-item-a{
     color: #ce2323;
     @media screen and (max-width:767px){ 
       color:#4d4d4d;
